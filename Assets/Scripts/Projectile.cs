@@ -5,11 +5,11 @@ using UnityEngine.Events;
 
 public class Projectile : MonoBehaviour
 {
-    protected float damageAmount;
-    protected float speed;
-    protected float knockback;
-    protected float lifetime;
-    protected UnityAction<HitData> OnHit;
+    float damageAmount;
+    float speed;
+    float knockback;
+    float lifetime;
+    UnityAction<HitData> OnHit;
 
     // Start is called before the first frame update
     void Start()

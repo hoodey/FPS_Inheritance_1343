@@ -11,6 +11,7 @@ public class HomingProjectile : Projectile
     Transform startTransform;
     float startTime;
     float journeylength;
+    float homingSpeed = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -37,7 +38,7 @@ public class HomingProjectile : Projectile
     {
         if (Time.time - startTime > 0.50)
         {
-            float distCovered = (Time.time - startTime) * speed/20.0f;
+            float distCovered = (Time.time - startTime) * homingSpeed;
 
             float fractionOfJourney = distCovered / journeylength;
             //Lerp towards the closest target

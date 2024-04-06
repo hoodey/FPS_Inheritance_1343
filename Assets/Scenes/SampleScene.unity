@@ -6227,6 +6227,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Shotgun
       objectReference: {fileID: 0}
+    - target: {fileID: 9113732597372228019, guid: 7234145c7185c1f42b68d93db4834413, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9113732598069823580, guid: 7234145c7185c1f42b68d93db4834413, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7234145c7185c1f42b68d93db4834413, type: 3}
 --- !u!1001 &8364979833462230271
@@ -6283,6 +6291,18 @@ PrefabInstance:
     - target: {fileID: 7941204450415167634, guid: 6a97061211129d6498bc77000576440e, type: 3}
       propertyPath: m_Name
       value: M4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941204450415167634, guid: 6a97061211129d6498bc77000576440e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7941204451327725949, guid: 6a97061211129d6498bc77000576440e, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8707438330461421950, guid: 6a97061211129d6498bc77000576440e, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a97061211129d6498bc77000576440e, type: 3}
